@@ -41,27 +41,6 @@ body::-webkit-scrollbar-thumb {
     font-weight: bolder;
 }
 
-#cursor {
-    height: 25px;
-    width: 25px;
-    background-color: #95c11e;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 12;
-    transition: all linear 0.1s;
-}
-
-#cursor-blur {
-    height: 350px;
-    width: 350px;
-    background-color: rgba(150, 193, 30, 0.3);
-    border-radius: 50%;
-    position: fixed;
-    filter: blur(70px);
-    z-index: 10;
-    transition: all linear 0.4s;
-}
-
 #nav {
     height: 120px;
     width: 100%;
